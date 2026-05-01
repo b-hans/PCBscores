@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <base target="_top">
+      </base></head>
+      <body>
+        <p id="uploadTitle">Upload title</p>
+
+        <label for="scoreUpload">Choose a score</label>
+
+        <input 
+            type="file" 
+            id="scoreUpload" 
+            name="scoreUpload" 
+            accept=".pdf" 
+            onchange="saveFile(this)" />
+            
+        <script>
+
+            function doSomething() {
+                alert ('here');
+                google.script.host.close();
+            }
+
+            function saveFile(f) {
+                const selectedFile = f.files[0];
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const obj = {
+                        filename: selectedFile.name,
+                        mimeType: selectedFile.type,
+                        bytes: [...new Int8Array(e.target.result)]
+                    }
+
+                    google.script.run
+                        .withSuccessHandler(data => mySuccess(data))
+                        .withFailureHandler(myFailure)
+                        .makeUpload(obj);
+
+                }
+
+                reader.readAsArrayBuffer(selectedFile);
+
+            }
+
+            function mySuccess() {
+                google.script.host.close();
+            }
+
+            function myFailure(error) {
+                alert("Error: " + error);
+            }
+        </script>
+
+      </body>
+
+    </html>
