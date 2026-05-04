@@ -6,7 +6,7 @@ function getMenu(e) {
 
     SpreadsheetApp.getUi()
          .createMenu('Form rebuilds')
-         .addItem('Rebuild input form', 'PCBScores.rebuildInputForm')
+         .addItem('Rebuild input form', 'rebuildInputForm')
          .addItem('Rebuild setlist input', 'rebuildSetlistInputForm')
          .addItem('Rebuild create document form', 'rebuildCreateDocumentForm')
          .addItem('Import harold', 'importNewHarold')
