@@ -2,7 +2,7 @@ const SETLISTS_SHEET = SpreadsheetApp.getActive().getSheetByName("Setlists");
 const SETLISTS_FORM =  SpreadsheetApp.getActive().getSheetByName("Setlist input");
 const SETLISTS_DOCUMENTS = SpreadsheetApp.getActive().getSheetByName("Setlist pdfs");
 
-const SETLISTS_FOLDER_ID = "18vZYH2lofBdVG31VK6rDcV6tTkf9LNZl";
+const SETLISTS_FOLDER_ID = "1NodfjzNQgq_1gdvadYuV73zdeI27Pqk3"; // Setlists folder
 const SETLISTS_FOLDER = DriveApp.getFolderById(SETLISTS_FOLDER_ID);
 
 // start 1

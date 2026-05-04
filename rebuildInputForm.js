@@ -261,6 +261,9 @@ function rebuildInputForm ( ) {
             .requireValueInList (filteredScoreTypes, true)
             .setHelpText('Select an option from the list.')
             .build();
+
+        SpreadsheetApp.flush();
+        
         typeCell.setDataValidation(typeRule);
         applyInputStyles(typeCell);
 

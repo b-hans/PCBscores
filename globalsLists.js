@@ -1,4 +1,4 @@
-const LISTS_FOLDER_ID = "18M5KV0vMBJ31qS_EvDiv_pOz5jDxxqMq";
+const LISTS_FOLDER_ID = "1curKg7p_y8mnrWy7YjYqDB2JCPR9j8hn"; //Lists folder
 const LISTS_FOLDER = DriveApp.getFolderById(LISTS_FOLDER_ID);
 
 const LIST_ALPHA_NAME = "2by2bas Title List";

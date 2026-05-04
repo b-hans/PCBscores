@@ -3,7 +3,7 @@
  */
 
 const CDF_SHEET = SpreadsheetApp.getActive().getSheetByName('Score document form');
-const CDF_DOCUMENTS = DriveApp.getFolderById('100mv4GUBNwLnRuGpxoK5x9IA1eeSVvV1'); // Documents
+const CDF_DOCUMENTS = DriveApp.getFolderById('1alpPvR0IyyVnkR2QezIdoj_L3aI8fwHI'); // Documents
 
 // GLOBALS FOR THE Part documents sheet
 const CDF_PARTS_SHEET = SpreadsheetApp.getActive().getSheetByName("Part documents");
@@ -15,7 +15,7 @@ const CDF_PARTS_TITLE_ID_COL = 1;
 const CDF_PARTS_PART_COL = 2;
 const CDF_PARTS_URL_COL = 3;
 
-const BLANK_IMAGE = DocumentApp.openById("1NLy2nz_BBGoCODldkg8bPaF2djgTM_NCZtEaWFFBsLY"); // Blanks Blank document
+const BLANK_IMAGE = DocumentApp.openById("1O9cu7FOF269W-xVrCvwpk2_U_TfIzIqV0DjyIFnJizA"); // Blanks Blank document
 
 const CDF_ROW_HEIGHTS = [ 97, 21, 32, 21, 41, 21, 47, 21, 21, 21, 
     21, 21, 21, 21, 21, 21, 21, 21, 21, 21 ];
