@@ -227,7 +227,7 @@ function rebuildInputForm ( ) {
         let num2by = sheet.getRange(INPUT_2BY_NUMBER);
         applyInputStyles(num2by);
 
-        applyTagStyles(sheet.getRange(INPUT_2BY_NUMBER_TAG), '2by2bas no.');
+        applyTagStyles(sheet.getRange(INPUT_2BY_NUMBER_TAG), 'PCB no.');
 
         applyTagStyles(sheet.getRange(INPUT_NOTES_TAG_CELL), "Notes");
 

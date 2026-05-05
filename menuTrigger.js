@@ -53,7 +53,7 @@ function menuTrigger(e) {
             sortMaster('id');
             break;
 
-          case "Sort by 2by2bas No.":
+          case "Sort by PCB No.":
             menuCell.setValue("Menu");
             sortMaster('number');
             break;
