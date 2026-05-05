@@ -24,7 +24,7 @@ function listByType( ) {
 
     let titlePar = myBody.getParagraphs()[0];
 
-    titlePar.appendText("2by2bas Titles by Type");
+    titlePar.appendText("PCB Titles by Type");
     titlePar.setAttributes(STYLE_TITLE);
 
     // get data from master

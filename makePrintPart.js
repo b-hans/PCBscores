@@ -225,7 +225,7 @@ function makePrintPart ( ) {
             indexNumPages: indexNumPages,
             setlist: setlist,
             sortedArray: sortedArray,
-            indexTitle: "2by2bas set: " + setlist.name + " - " + part_type,
+            indexTitle: "PCB set: " + setlist.name + " - " + part_type,
         });
 
         if (!rewrite) {

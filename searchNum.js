@@ -31,7 +31,7 @@ function searchNum () {
     }
 
     if (numToSearch < 1) {
-        statusRange.setValue("You must enter an integer greater than 0 in the 2by2bas No. field");
+        statusRange.setValue("You must enter an integer greater than 0 in the PCB No. field");
         setStatus('');
         return;
     }

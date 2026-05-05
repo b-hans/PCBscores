@@ -1,9 +1,9 @@
 const LISTS_FOLDER_ID = "1curKg7p_y8mnrWy7YjYqDB2JCPR9j8hn"; //Lists folder
 const LISTS_FOLDER = DriveApp.getFolderById(LISTS_FOLDER_ID);
 
-const LIST_ALPHA_NAME = "2by2bas Title List";
-const LIST_NUM_NAME = "2by2bas List by number";
-const LIST_TYPE_NAME = "2by2bas List by type";
+const LIST_ALPHA_NAME = "PCB Title List";
+const LIST_NUM_NAME = "PCB List by number";
+const LIST_TYPE_NAME = "PCB List by type";
 
 const LIST_TABLE_HEADINGS = [
     'Title',
